@@ -1,0 +1,82 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Mar 15, 2025, 3:48:51 PM
+    Author     : gigabyte
+*/
+ body {
+            font-family: Arial, sans-serif;
+            background: url('../images/338350413_914214129705417_3213458698699314864_n.jpeg') no-repeat center center fixed;
+            background-size: cover; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.9); /* Thêm độ trong suốt */
+            padding: 30px;
+            border-radius: 15px; /* Bo tròn góc */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Tăng độ đổ bóng */
+            text-align: center;
+            width: 100%;
+            max-width: 400px; /* Đặt chiều rộng tối đa */
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            color: #4A4A4A; /* Màu chữ */
+            font-size: 24px; /* Kích thước chữ */
+        }
+
+        .input-group {
+            position: relative;
+            margin: 10px 0;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 80%; /* Đặt chiều rộng 100% */
+            padding: 15px 40px; /* Tăng padding cho thoải mái */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px; /* Kích thước chữ trong input */
+        }
+
+        .input-group i {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #999;
+        }
+
+        button {
+            background: linear-gradient(90deg, #FF6F00, #FFB300); /* Gradient cho nút */
+            color: white;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px; /* Kích thước chữ */
+            font-weight: 600; /* Độ đậm chữ */
+        }
+
+        button:hover {
+            opacity: 0.9; /* Hiệu ứng khi hover */
+        }
+
+        .footer {
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: #007BFF;
+            text-decoration: none;
+        }
